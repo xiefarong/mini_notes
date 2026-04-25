@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">便签</string>
+    <string name="app_widget2x2">便签2x2</string>
+    <string name="app_widget4x4">便签4x4</string>
+    <string name="widget_havenot_content">没有关联内容，点击新建便签。</string>
+    <string name="notelist_string_info">…</string>
+    <string name="notelist_menu_new">新建便签</string>
+    <string name="notealert_ok">知道了</string>
+    <string name="notealert_enter">查看</string>
+    <!-- note list string -->
+    <string name="menu_create_folder">新建文件夹</string>
+    <string name="menu_setting">设置</string>
+    <string name="action_back">返回</string>
+    <string name="action_more">更多</string>
+    <string name="state_enabled">已开启</string>
+    <string name="state_disabled">已关闭</string>
+    <string name="menu_delete">删除</string>
+    <plurals name="menu_select_title">
+        <item quantity="other">选中了 %d 项</item>
+    </plurals>
+    <string name="menu_select_none">没有选中项，操作无效</string>
+    <string name="menu_list_mode">进入清单模式</string>
+    <string name="menu_normal_mode">退出清单模式</string>
+    <string name="menu_font_small">小</string>
+    <string name="menu_font_normal">正常</string>
+    <string name="menu_font_large">大</string>
+    <string name="menu_font_super">超大</string>
+    <string name="menu_folder_delete">刪除文件夹</string>
+    <string name="menu_folder_change_name">修改文件夹名称</string>
+    <string name="folder_exist">文件夹 %1$s 已存在，请重新命名</string>
+    <string name="menu_share">分享</string>
+    <string name="share_note_chooser_title">分享便签</string>
+    <string name="menu_export_as_txt">导出为 TXT</string>
+    <string name="menu_generate_long_image">保存为图片</string>
+    <string name="menu_send_to_desktop">发送到桌面</string>
+    <string name="menu_alert">提醒我</string>
+    <string name="menu_remove_remind">删除提醒</string>
+    <string name="info_note_enter_desktop">已添加到桌面</string>
+    <string name="alert_title_delete">删除</string>
+    <plurals name="alert_message_delete_notes">
+        <item quantity="other">确认要删除所选的 %d 条便签吗?</item>
+    </plurals>
+    <string name="alert_message_delete_note">确认要删除该条便签吗?</string>
+    <string name="alert_message_delete_folder">确认删除文件夹及所包含的便签吗？</string>
+    <!-- export text -->
+    <string name="error_sdcard_export">导出文本时发生错误，请检查SD卡</string>
+    <string name="error_no_share_app">没有可用于分享便签的应用</string>
+    <string name="error_long_image_save_failed">保存图片失败</string>
+    <string name="error_note_not_exist">要查看的便签不存在</string>
+    <string name="error_note_empty_for_export">空便签无法导出</string>
+    <string name="error_note_empty_for_clock">不能为空便签设置闹钟提醒</string>
+    <string name="error_note_empty_for_send_to_desktop">不能将空便签发送到桌面</string>
+    <string name="success_sdcard_export">导出成功</string>
+    <string name="success_long_image_saved">已保存到相册</string>
+    <!-- Preferences -->
+    <string name="preferences_title">设置</string>
+    <string name="preferences_bg_random_appear_title">新建便签背景颜色随机</string>
+    <string name="preferences_default_color_title">默认新建便签颜色</string>
+    <string name="preferences_sort_title">列表排序</string>
+    <string name="preferences_sort_modified_desc">最近修改优先</string>
+    <string name="preferences_sort_modified_asc">最早修改优先</string>
+    <string name="preferences_sort_title_asc">按标题排序</string>
+    <string name="preferences_delete_confirmation_title">删除前确认</string>
+    <string name="preferences_remember_last_folder_title">记住上次打开的文件夹</string>
+    <string name="color_yellow">黄色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="color_white">白色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_red">红色</string>
+    <string name="call_record_folder_name">通话便签</string>
+    <string name="hint_foler_name">请输入名称</string>
+    <string name="search_hint">搜索便签</string>
+    <string name="note_editor_placeholder">写点什么…</string>
+    <string name="checklist_placeholder">每行一项…</string>
+    <string name="footer_items_empty">这里还没有内容</string>
+    <string name="footer_call_notes_empty">还没有通话便签</string>
+    <plurals name="footer_items_count">
+        <item quantity="other">共 %1$d 项内容</item>
+    </plurals>
+    <plurals name="footer_call_notes_count">
+        <item quantity="other">共 %1$d 条通话便签</item>
+    </plurals>
+    <string name="footer_hint_add_note">轻触底部按钮即可新建便签</string>
+    <string name="footer_hint_search">使用上方搜索可更快找到内容</string>
+</resources>
