@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">便簽</string>
+    <string name="app_widget2x2">便簽2x2</string>
+    <string name="app_widget4x4">便簽4x4</string>
+    <string name="widget_havenot_content">沒有關聯內容，點擊新建便簽。</string>
+    <string name="notelist_string_info">…</string>
+    <string name="notelist_menu_new">新建便簽</string>
+    <string name="notealert_ok">知道了</string>
+    <string name="notealert_enter">查看</string>
+    <!-- note list string -->
+    <string name="menu_create_folder">新建文件夾</string>
+    <string name="menu_setting">設置</string>
+    <string name="action_back">返回</string>
+    <string name="action_more">更多</string>
+    <string name="state_enabled">已開啟</string>
+    <string name="state_disabled">已關閉</string>
+    <string name="menu_delete">刪除</string>
+    <plurals name="menu_select_title">
+        <item quantity="other">選中了 %d 項</item>
+    </plurals>
+    <string name="menu_select_none">沒有選中項，操作無效</string>
+    <string name="menu_list_mode">進入清單模式</string>
+    <string name="menu_normal_mode">退出清單模式</string>
+    <string name="menu_font_small">小</string>
+    <string name="menu_font_normal">正常</string>
+    <string name="menu_font_large">大</string>
+    <string name="menu_font_super">超大</string>
+    <string name="menu_folder_delete">刪除文件夾</string>
+    <string name="menu_folder_change_name">修改文件夾名稱</string>
+    <string name="folder_exist">文件夾 %1$s 已存在，請重新命名</string>
+    <string name="menu_share">分享</string>
+    <string name="share_note_chooser_title">分享便簽</string>
+    <string name="menu_export_as_txt">導出為 TXT</string>
+    <string name="menu_generate_long_image">保存為圖片</string>
+    <string name="menu_send_to_desktop">發送到桌面</string>
+    <string name="menu_alert">提醒我</string>
+    <string name="menu_remove_remind">刪除提醒</string>
+    <string name="info_note_enter_desktop">已添加到桌面</string>
+    <string name="alert_title_delete">刪除</string>
+    <plurals name="alert_message_delete_notes">
+        <item quantity="other">确认要刪除所選的 %d 條便籤嗎?</item>
+    </plurals>
+    <string name="alert_message_delete_note">确认要删除該條便籤嗎?</string>
+    <string name="alert_message_delete_folder">確認刪除檔夾及所包含的便簽嗎？</string>
+    <string name="error_sdcard_export">導出TXT時發生錯誤，請檢查SD卡</string>
+    <string name="error_no_share_app">沒有可用於分享便簽的應用</string>
+    <string name="error_long_image_save_failed">保存圖片失敗</string>
+    <string name="error_note_not_exist">要查看的便籤不存在</string>
+    <string name="error_note_empty_for_export">空白便簽無法導出</string>
+    <string name="error_note_empty_for_clock">不能爲空便籤設置鬧鐘提醒</string>
+    <string name="error_note_empty_for_send_to_desktop">不能將空便籤發送到桌面</string>
+    <string name="success_sdcard_export">導出成功</string>
+    <string name="success_long_image_saved">已保存到相冊</string>
+    <!-- Preferences -->
+    <string name="preferences_title">設置</string>
+    <string name="preferences_bg_random_appear_title">新建便籤背景顏色隨機</string>
+    <string name="preferences_default_color_title">默認新建便籤顏色</string>
+    <string name="preferences_sort_title">列表排序</string>
+    <string name="preferences_sort_modified_desc">最近修改優先</string>
+    <string name="preferences_sort_modified_asc">最早修改優先</string>
+    <string name="preferences_sort_title_asc">按標題排序</string>
+    <string name="preferences_delete_confirmation_title">刪除前確認</string>
+    <string name="preferences_remember_last_folder_title">記住上次打開的文件夾</string>
+    <string name="color_yellow">黃色</string>
+    <string name="color_blue">藍色</string>
+    <string name="color_white">白色</string>
+    <string name="color_green">綠色</string>
+    <string name="color_red">紅色</string>
+    <string name="call_record_folder_name">通話便籤</string>
+    <string name="hint_foler_name">請輸入名稱</string>
+
+    <string name="search_hint">搜索便籤</string>
+    <string name="note_editor_placeholder">寫點什麼…</string>
+    <string name="checklist_placeholder">每行一項…</string>
+    <string name="footer_items_empty">這裡還沒有內容</string>
+    <string name="footer_call_notes_empty">還沒有通話便籤</string>
+    <plurals name="footer_items_count">
+        <item quantity="other">共 %1$d 項內容</item>
+    </plurals>
+    <plurals name="footer_call_notes_count">
+        <item quantity="other">共 %1$d 條通話便籤</item>
+    </plurals>
+    <string name="footer_hint_add_note">輕觸底部按鈕即可新建便簽</string>
+    <string name="footer_hint_search">使用上方搜尋可更快找到內容</string>
+</resources>
